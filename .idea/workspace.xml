@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1f43908-1630-47f3-9cc6-34f128b7605e" name="Changes" comment="feat: add routes">
-      <change afterPath="$PROJECT_DIR$/src/components/visualizer/visualizer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/visualizer/visualizer.tsx" afterDir="false" />
+    <list default="true" id="c1f43908-1630-47f3-9cc6-34f128b7605e" name="Changes" comment="feat: add visualizer">
+      <change afterPath="$PROJECT_DIR$/src/components/control-panel/control-panel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/control-panel/control-panel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/swap.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigation/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/visualizer/visualizer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/visualizer/visualizer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656997211616</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add visualizer">
+      <created>1657009279750</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657009279750</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +121,7 @@
     <MESSAGE value="feat: create project" />
     <MESSAGE value="feat: add ant" />
     <MESSAGE value="feat: add routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add routes" />
+    <MESSAGE value="feat: add visualizer" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add visualizer" />
   </component>
 </project>
