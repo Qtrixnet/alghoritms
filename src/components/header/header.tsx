@@ -1,6 +1,7 @@
 import {Row, Col} from "react-bootstrap";
+import {FC} from "react";
 
-const Header = () => {
+const Header: FC = () => {
   return (
     <Row className="header">
       <Col className="header__column">

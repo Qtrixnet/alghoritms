@@ -4,16 +4,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Row, Col} from "react-bootstrap";
 import Navigation from "../navigation/navigation";
 import Header from "../header/header";
+import Visualizer from "../visualizer/visualizer";
 
 const App: FC = () => {
   return (
     <Container fluid className="app">
-      <Header />
+      <Header/>
       <Row>
         <Col sm="2">
-          <Navigation />
+          <Navigation/>
         </Col>
-        <Col>Content</Col>
+        <Visualizer />
       </Row>
     </Container>
   );

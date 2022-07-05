@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1f43908-1630-47f3-9cc6-34f128b7605e" name="Changes" comment="feat: add routes">
-      <change afterPath="$PROJECT_DIR$/src/navigation/navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/visualizer/visualizer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/visualizer/visualizer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigation/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variables/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ekis\Desktop\algorithms\src\styles" />
+      <recent name="C:\Users\ekis\Desktop\algorithms\src\components" />
       <recent name="C:\Users\ekis\Desktop\algorithms\src" />
       <recent name="C:\Users\ekis\Desktop\algorithms\src\app" />
     </key>
