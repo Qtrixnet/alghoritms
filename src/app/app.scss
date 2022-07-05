@@ -1,6 +1,7 @@
 @import '../variables/variables';
 
 .app {
-  background-color: $dark;
+  background-color: $light;
+  color: $dark;
   min-height: 100vh;
 }
