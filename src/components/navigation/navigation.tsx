@@ -10,19 +10,9 @@ const Navigation: FC = () => {
         <NavLink
           className="navigation__link"
           to="/quick-sort"
-        >Quick sort</NavLink>
-      </ListGroup.Item>
-      <ListGroup.Item className="navigation__item">
-        <NavLink
-          className="navigation__link"
-          to="/merge-sort"
-        >Merge sort</NavLink>
-      </ListGroup.Item>
-      <ListGroup.Item className="navigation__item">
-        <NavLink
-          className="navigation__link"
-          to="/heap-sort"
-        >Heap sort</NavLink>
+        >
+          Пузырьковая сортировка
+        </NavLink>
       </ListGroup.Item>
     </ListGroup>
   );
