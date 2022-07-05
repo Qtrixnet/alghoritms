@@ -1,4 +1,6 @@
-const App = () => {
+import {FC} from "react";
+
+const App: FC = () => {
   return (
     <div className="App">
       <header className="App-header">
