@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1f43908-1630-47f3-9cc6-34f128b7605e" name="Changes" comment="feat: add visualizer">
-      <change afterPath="$PROJECT_DIR$/src/components/control-panel/control-panel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/control-panel/control-panel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/swap.ts" afterDir="false" />
+    <list default="true" id="c1f43908-1630-47f3-9cc6-34f128b7605e" name="Changes" comment="feat: add mui">
+      <change afterPath="$PROJECT_DIR$/src/components/main/main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/control-panel/control-panel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/control-panel/control-panel.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/visualizer/visualizer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/visualizer/visualizer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,18 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\ekis\\Desktop\\algorithms\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\ekis\\Desktop\\algorithms\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ekis\Desktop\algorithms\src\styles" />
@@ -122,6 +125,7 @@
     <MESSAGE value="feat: add ant" />
     <MESSAGE value="feat: add routes" />
     <MESSAGE value="feat: add visualizer" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add visualizer" />
+    <MESSAGE value="feat: add mui" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add mui" />
   </component>
 </project>

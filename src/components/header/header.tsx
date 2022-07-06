@@ -1,15 +1,13 @@
-import {Row, Col} from "react-bootstrap";
 import {FC} from "react";
+import {Box, Typography} from "@mui/material";
 
 const Header: FC = () => {
   return (
-    <Row className="header">
-      <Col className="header__column">
-        <h1 className="header__title">
-          Визуализатор алгоритмов сортировки
-        </h1>
-      </Col>
-    </Row>
+    <Box>
+      <Typography variant="h5" component="h1">
+        Визуализатор алгоритмов сортировки
+      </Typography>
+    </Box>
   );
 };
 
