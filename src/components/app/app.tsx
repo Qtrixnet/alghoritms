@@ -1,23 +1,15 @@
 import './app.scss';
 import {FC} from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import {Container, Row, Col} from "react-bootstrap";
-import Navigation from "../navigation/navigation";
-import Visualizer from "../visualizer/visualizer";
+import {Container} from "@mui/material";
 import Header from "../header/header";
+import Main from "../main/main";
+
 
 const App: FC = () => {
   return (
-    <Container fluid className="app">
+    <Container maxWidth={false}>
       <Header/>
-      <Row>
-        <Col sm="2">
-          <Navigation/>
-        </Col>
-        <Col>
-          <Visualizer/>
-        </Col>
-      </Row>
+      <Main/>
     </Container>
   );
 }
