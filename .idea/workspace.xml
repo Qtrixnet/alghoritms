@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1f43908-1630-47f3-9cc6-34f128b7605e" name="Changes" comment="feat: add mui">
-      <change afterPath="$PROJECT_DIR$/src/components/main/main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/control-panel/control-panel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/control-panel/control-panel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/control-panel/control-panel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/navigation.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/visualizer/visualizer.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/visualizer/visualizer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/visualizer/visualizer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
@@ -41,7 +41,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\ekis\\Desktop\\algorithms\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Projects\\alghoritms\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>

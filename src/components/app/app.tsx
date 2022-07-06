@@ -1,4 +1,3 @@
-import './app.scss';
 import {FC} from "react";
 import {Container} from "@mui/material";
 import Header from "../header/header";

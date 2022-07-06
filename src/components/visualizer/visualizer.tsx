@@ -1,12 +1,12 @@
-import './visualizer.scss';
 import React, {FC} from 'react';
 import ControlPanel from "../control-panel/control-panel";
+import {Stack} from "@mui/material";
 
 const Visualizer: FC = () => {
   return (
-    <div className="visualizer">
+    <Stack>
       <ControlPanel />
-    </div>
+    </Stack>
   );
 };
 
