@@ -1,7 +1,8 @@
 @import '../../styles/variables/variables';
 
 .visualizer {
+  width: 100%;
   background-color: $white;
   border-radius: 4px;
-  border: 1px solid rgba($dark, 0.2);
+  padding: $small-gap;
 }

@@ -1,13 +1,12 @@
+import './header.scss';
 import {FC} from "react";
-import {Box, Typography} from "@mui/material";
 
 const Header: FC = () => {
   return (
-    <Box>
-      <Typography variant="h5" component="h1">
-        Визуализатор алгоритмов сортировки
-      </Typography>
-    </Box>
+    <header className="header">
+      <span className="header__icon" />
+      <h1 className="header__title">Визуализатор алгоритмов сортировки</h1>
+    </header>
   );
 };
 

@@ -1,0 +1,16 @@
+@import '../../styles/variables/variables';
+
+.control-panel {
+  display: flex;
+  align-items: center;
+  gap: $big-gap;
+
+  &__range {
+    width: 100%;
+  }
+
+  &__elements {
+    display: flex;
+    align-items: center;
+  }
+}

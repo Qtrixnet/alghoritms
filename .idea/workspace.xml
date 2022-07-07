@@ -2,17 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1f43908-1630-47f3-9cc6-34f128b7605e" name="Changes" comment="feat: add mui">
-      <change afterPath="$PROJECT_DIR$/src/components/main/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/shuffle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sort.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/control-panel/control-panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/control-panel/control-panel.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/control-panel/control-panel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/control-panel/control-panel.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/visualizer/visualizer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/visualizer/visualizer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/visualizer/visualizer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/visualizer/visualizer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/variables/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ekis/Desktop/algorithms/src/images",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -46,10 +59,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ekis\Desktop\algorithms\src\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ekis\Desktop\algorithms" />
+      <recent name="C:\Users\ekis\Desktop\algorithms\src" />
       <recent name="C:\Users\ekis\Desktop\algorithms\src\styles" />
       <recent name="C:\Users\ekis\Desktop\algorithms\src\components" />
-      <recent name="C:\Users\ekis\Desktop\algorithms\src" />
       <recent name="C:\Users\ekis\Desktop\algorithms\src\app" />
     </key>
   </component>
@@ -62,6 +79,8 @@
       <option name="presentableId" value="Default" />
       <updated>1656992278306</updated>
       <workItem from="1656992281830" duration="8360000" />
+      <workItem from="1657163654166" duration="4261000" />
+      <workItem from="1657169339364" duration="11346000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create project">
       <created>1656993211959</created>
@@ -91,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657009279750</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: add mui">
+      <created>1657092782971</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657092782971</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
