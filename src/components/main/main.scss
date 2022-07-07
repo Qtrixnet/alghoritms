@@ -1,0 +1,12 @@
+@import "../../styles/variables/variables";
+
+.main {
+  display: flex;
+  gap: $middle-gap;
+  flex-grow: 1;
+  padding: $middle-gap;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}

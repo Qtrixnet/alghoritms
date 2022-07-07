@@ -1,7 +1,12 @@
-@import '../../styles/variables/variables';
+@import "../../styles/variables/variables";
 
 .app {
-  background-color: $light;
+  font-size: 18px;
+  line-height: 1.2;
+  font-family: 'Roboto', serif;
   color: $dark;
   min-height: 100vh;
+  background-color: $light;
+  display: flex;
+  flex-direction: column;
 }

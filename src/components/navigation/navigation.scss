@@ -1,8 +1,23 @@
 @import '../../styles/variables/variables';
 
 .navigation {
+  background-color: $light;
+  width: 100%;
+  max-width: 250px;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: $small-gap;
+  }
+
   &__link {
+    background-color: $white;
+    border-radius: 4px;
+    display: block;
     text-decoration: none;
+    padding: $small-gap;
     color: $dark;
     transition: color .2s ease, opacity .2s ease;
 

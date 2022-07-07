@@ -1,0 +1,31 @@
+@import "../../styles/variables/variables";
+
+.header {
+  background-color: $dark;
+  color: $light;
+  padding: $middle-gap;
+  box-shadow: 0 5px 5px rgba($dark, 0.3);
+  display: flex;
+  align-items: center;
+  gap: $middle-gap;
+
+  &__title {
+    font-size: 24px;
+
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+
+  &__icon {
+    width: 32px;
+    height: 32px;
+    display: block;
+    background-image: url("../../images/sort.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+}
