@@ -5,6 +5,10 @@
   width: 100%;
   max-width: 250px;
 
+  @media screen and (max-width: 768px)  {
+    max-width: 100%;
+  }
+
   &__list {
     list-style: none;
     display: flex;
@@ -19,14 +23,19 @@
     text-decoration: none;
     padding: $small-gap;
     color: $dark;
-    transition: color .2s ease, opacity .2s ease;
+    transition: color .2s ease, opacity .2s ease, box-shadow .2s ease;
 
     &:hover {
       color: $primary;
+      box-shadow: 0 3px 6px -3px rgba($dark, 0.3);
     }
 
     &:active {
-      opacity: 0.5;
+      opacity: 0.8;
+    }
+
+    @media screen and (max-width: 768px)  {
+      text-align: center;
     }
   }
 }
