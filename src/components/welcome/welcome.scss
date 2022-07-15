@@ -1,0 +1,40 @@
+@import '../../styles/variables/variables';
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: $middle-gap;
+  background-color: $white;
+  padding: $middle-gap;
+  border-radius: 4px;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__text {
+
+    &--accent {
+      color: $primary;
+    }
+  }
+
+  &__list {
+    padding-left: $middle-gap;
+    list-style: inside;
+    display: flex;
+    flex-direction: column;
+    gap: $middle-gap;
+  }
+
+  &__list-item {
+    display: flex;
+    flex-direction: column;
+    gap: $small-gap;
+  }
+
+  &__list-text {
+    font-style: italic;
+  }
+}

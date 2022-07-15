@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   gap: $big-gap;
+  padding-bottom: $big-gap;
 
   &__range {
     width: 100%;

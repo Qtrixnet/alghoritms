@@ -1,13 +1,16 @@
 import './main.scss';
-import {FC} from "react";
+import React, {FC} from "react";
 import Navigation from "../navigation/navigation";
-import Visualizer from "../visualizer/visualizer";
+import {Route, Routes} from "react-router-dom";
+import Welcome from "../welcome/welcome";
 
 const Main: FC = () => {
   return (
     <main className="main">
       <Navigation/>
-      <Visualizer/>
+      <Routes>
+        <Route path="/" element={<Welcome/>}/>
+      </Routes>
     </main>
   );
 };
