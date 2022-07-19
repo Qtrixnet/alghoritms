@@ -12,6 +12,11 @@
   align-items: center;
   gap: $small-gap;
 
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    justify-content: center;
+  }
+
   &:hover {
     cursor: pointer;
     opacity: 0.8;

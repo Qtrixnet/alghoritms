@@ -2,11 +2,16 @@ import './control-panel.scss';
 import {FC} from 'react';
 import Button from "../button/button";
 // @ts-ignore
-import shuffleIcon from '../../images/shuffle.svg';
+import shuffleIcon from "../../images/shuffle.svg";
 // @ts-ignore
-import playIcon from '../../images/play.svg';
-// @ts-ignore
-const ControlPanel: FC = ({handleChangeElementsCount, elementsCount}) => {
+import playIcon from "../../images/play.svg";
+
+interface IControlPanel {
+  setElementsCount: (evt: any) => void,
+  elementsCount: number,
+}
+
+const ControlPanel: FC<IControlPanel> = ({setElementsCount, elementsCount}) => {
   return (
     <div className="control-panel">
       <Button icon={shuffleIcon}>
@@ -23,8 +28,7 @@ const ControlPanel: FC = ({handleChangeElementsCount, elementsCount}) => {
         max="1000"
         step={10}
         type="range"
-        // @ts-ignore
-        onChange={handleChangeElementsCount}
+        onChange={setElementsCount}
       />
     </div>
   );

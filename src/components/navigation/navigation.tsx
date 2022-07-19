@@ -12,13 +12,8 @@ const Navigation: FC = () => {
           </NavLink>
         </li>
         <li className="navigation__list-item">
-          <NavLink className="navigation__link" to="/selection-sort">
-            Сортировка выбором
-          </NavLink>
-        </li>
-        <li className="navigation__list-item">
-          <NavLink className="navigation__link" to="/insert-sort">
-            Сортировка вставками
+          <NavLink className="navigation__link" to="/quick-sort">
+            Быстрая сортировка
           </NavLink>
         </li>
         <li className="navigation__list-item">
@@ -26,17 +21,6 @@ const Navigation: FC = () => {
             Сортировка слиянием
           </NavLink>
         </li>
-        <li className="navigation__list-item">
-          <NavLink className="navigation__link" to="/quick-sort">
-            Быстрая сортировка
-          </NavLink>
-        </li>
-        <li className="navigation__list-item">
-          <NavLink className="navigation__link" to="/block-sort">
-            Блочная сортировка
-          </NavLink>
-        </li>
-
       </ul>
     </nav>
   );

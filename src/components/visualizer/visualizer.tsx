@@ -5,18 +5,11 @@ import ControlPanel from "../control-panel/control-panel";
 const Visualizer: FC = () => {
   const [elementsCount, setElementsCount] = useState(10);
 
-  // @ts-ignore
-  const handleChangeElementsCount = (evt) => {
-    setElementsCount(evt.target.value)
-  }
-
   return (
     <div className="visualizer">
       <ControlPanel
-        // @ts-ignore
+        setElementsCount={setElementsCount}
         elementsCount={elementsCount}
-        // @ts-ignore
-        handleChangeElementsCount={handleChangeElementsCount}
       />
     </div>
   );
